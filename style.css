@@ -1,0 +1,66 @@
+body, html {    
+    margin: 0; 
+    padding: 0;    
+    font-family: Arial, sans-serif;  
+    padding-top: 50px;     
+    background-color: #2F4F4F;  /* Насыщенный тёмный серо-зелёный фон */
+} 
+
+.navbar { 
+    margin-bottom: 20px;    
+    background-color: #1F3A3A;  /* Насыщенный тёмно-зелёный для навбара */
+} 
+
+.navbar-brand, .navbar-nav > li > a { 
+    color: #FFD700 !important; /* Яркий золотой для текста в навбаре */
+} 
+
+.jumbotron { 
+    background-color: #2F4F4F; /* Насыщенный тёмный серо-зелёный для jumbotron */
+} 
+
+footer { 
+    margin-top: 20px; 
+    padding: 10px;    
+    background-color: #2F4F4F; /* Насыщенный тёмный серо-зелёный для футера */
+} 
+
+h2 {    
+    margin-top: 50px; 
+} 
+
+header {    
+    text-align: center; 
+    margin-bottom: 20px; 
+} 
+
+h1 {    
+    font-size: 3em; 
+    color: #FF4500;  /* Яркий оранжево-красный для заголовка */
+} 
+
+.section { 
+    border: 1px solid #B22222;  /* Насыщенный красный для границы */
+    margin: 10px; 
+    padding: 20px;    
+    box-sizing: border-box; 
+    position: relative;    
+    background-color: #4B0082;  /* Насыщенный индиго для секций */
+    color: #FFFFFF;  /* Белый для текста */
+} 
+
+.section-title { 
+    padding: 10px;    
+    font-size: 1.2em; 
+    font-weight: bold; 
+    color: #FFD700;  /* Яркий золотой для заголовков секций */
+} 
+
+/* Responsive Design */ 
+@media (min-width: 768px) {    
+    /* Styles specific to tablet view can go here */ 
+} 
+
+@media (min-width: 992px) {    
+    /* Styles specific to desktop view can go here */ 
+}
